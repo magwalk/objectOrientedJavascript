@@ -51,12 +51,15 @@
       <section class="m-contact grid_8 alpha">
         <h1 class="m-contact-title">Say Hello!</h1>
         <p>We would love to hear from you.</p>
-        <form action="" class="m-contact-form" method="post">
-          <input type="text" name="name" class="m-contact-form--name" placeholder="name"/>
-          <input type="email" name="email" class="m-contact-form--email" placeholder="email"/>
-          <textarea rows=15 cols=80 class="m-contact-form--comment" placeholder="comment"></textarea>
-          <button class="m-contact-form--btn">submit</button>
-        </form>
+        <div action="" class="m-contact-form" method="post">
+          <input type="text" name="name" class="m-contact-form--name" id= "nameVal" placeholder="name"/>
+          <input type="email" name="email" class="m-contact-form--email" id="emailVal" placeholder="email"/>
+          <textarea rows=15 cols=80 class="m-contact-form--comment" id="commentVal" placeholder="comment"></textarea>
+          <button class="m-contact-form--btn" id="clickButton">submit</button>
+        </div>
+        <p id="output">
+        </p>
+
       </section>
       <section class="grid_4 omega">
         <h1 class="m-socialmedia-heading">Social Media</h1>
@@ -84,5 +87,6 @@
         <img src="img/codefellows.svg" class="m-footer-image" alt="code fellows logo">
       </footer>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
